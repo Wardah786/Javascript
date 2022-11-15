@@ -1,0 +1,37 @@
+div p1 {
+    background-color: yellow;
+}
+
+#kitty {
+    width: 800px;
+    border: 1em solid;
+    border-color: orange;
+}
+
+/* img {
+    width: 100px;
+} */
+
+.table1 {
+    border: 1px solid;
+    border-bottom-right-radius: 10cm;
+    border-color: red;
+    align-content: center;
+    color: red;
+}
+
+.table2 {
+    border: 1px solid;
+    border-color: black;
+}
+
+.table3 {
+    border: 1px solid;
+    border-color: black;
+}
+
+#lion {
+    width: 850px;
+    border: 1em solid;
+    border-color: red;
+}

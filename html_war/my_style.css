@@ -1,0 +1,25 @@
+h1 {
+    /* Selector */
+    color: orange;
+    /* Declaration 1 */
+    /* font-size: 12px; */
+    /* Declaration 2 */
+}
+
+h2 {
+    color: red;
+    font-size: large;
+}
+
+#welcome {
+    color: red;
+}
+
+.netfliximg {
+    width: 100px;
+
+}
+
+div p {
+    background-color: yellow;
+}
