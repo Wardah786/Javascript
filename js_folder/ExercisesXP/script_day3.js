@@ -51,8 +51,28 @@ if (onlineUsers === 2) {
     console.log(users[0] + " and " + users[1] + " are online ")
 }
 
-
-
 if (onlineUsers > 2) {
     console.log(users[0] + ", " + users[1] + " and " + (onlineUsers - 2) + " more are online")
+}
+
+// Daily Challenge
+//Create a variable called sentence. The value of the variable should be a string that contains the words “not” and “bad”.
+//For example, “The movie is not that bad, I like it”.
+
+let sentence = "Lying is bad, truth is not."
+
+//Create a variable called wordNot.where it’s value is the first appearance (ie. the position) of the substring “not” (from the sentence variable).
+let wordNot = sentence.indexOf("not");
+console.log(wordNot);
+//Create a variable called wordBad where it’s value is the first appearance (ie. the position) of the substring “bad” (from the sentence variable).
+let wordBad = sentence.indexOf("bad");
+console.log(wordBad);
+//if the word “bad” comes after the word “not”, 
+//you should replace the whole “not…bad” substring with “good”, 
+//then console.log the result.
+if (wordBad > wordNot) {
+    console.log(text.replace(not / bad, "good"))
+}
+if (wordBad < wordNot) {
+    console.log(sentence)
 }
